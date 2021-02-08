@@ -1,0 +1,24 @@
+def count(str):
+ uper,lower = 0,0
+ newStr =""
+ for i in range(len(str)):
+   if str[i].isupper():
+      upper + =1
+   elif str[i].islower():
+      lower + =1
+  print("Upper case letters:",Upper)
+   print("Lower case letters:",Lower)
+
+
+  for i in range(0,len(str)):
+     if str[i].islower():
+      newStr += str[i].upper();
+   elif str[i].isupper():
+     newStr += str[i].lower();
+
+  print("after exchange-")
+  print(newStr)
+
+
+str="EduCaTioN"
+Count(str)
